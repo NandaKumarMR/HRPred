@@ -3,7 +3,7 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c("caret","data.table")
+my_packages = c("caret","data.table","kernlab")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
