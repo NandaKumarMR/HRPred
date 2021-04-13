@@ -1,4 +1,5 @@
 library(caret)
+library(data.table)
 
 # Read in the RF model
 model <- readRDS("Model.rds")
